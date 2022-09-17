@@ -6,8 +6,20 @@ body {
 p {
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
 .hero {
     background-color: #1F2937;
+    padding: 8px 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-logo-text{
@@ -16,12 +28,45 @@ p {
     color: #F9FAF8;
 }
 
-.header-links {
+.header-links, 
+a {
     color: #E5E7EB;
     list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.hero-content {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    flex: 1;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.hero-text .hero-secondary-text {
+    margin-top: 6px;
+    max-width: 450px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color:  #666c76;
+    text-align: center;
 }
 
 .hero-main-text {
+    margin: 0;
     font-size: 48px;
     color: #F9FAF8;
 }
@@ -33,12 +78,11 @@ button,
 }
 
 button {
+    margin: 15px 0px;
+    padding: 8px 30px;
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #3882F6;
+    font-weight: bold;
     color: white;
-}
-
-.hero-image {
-    background-color:  #969696;
 }
