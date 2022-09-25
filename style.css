@@ -168,3 +168,49 @@ button {
     font-weight: bold;
     color: #1F2937;
 }
+
+.container-4 {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+#call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid white;
+    height: 40px;
+}
+
+.footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
